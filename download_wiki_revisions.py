@@ -226,7 +226,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--n-revisions",
         type=int,
-        default=10,
+        default=None,
         help="Number of revisions to download",
     )
     args = parser.parse_args()
